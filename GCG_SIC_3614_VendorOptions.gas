@@ -1,0 +1,317 @@
+Program.Sub.ScreenSU.Start
+
+Gui.Form1..Create
+Gui.Form1..Caption("Vendor Options Label's")
+Gui.Form1..Size(2970,4095)
+Gui.Form1..Position(0,0)
+Gui.Form1..AlwaysOnTop(False)
+Gui.Form1..FontName("Arial")
+Gui.Form1..FontSize(7)
+Gui.Form1..ForeColor(0)
+Gui.Form1..Backcolor(-2147483633)
+Gui.Form1..ControlBox(True)
+Gui.Form1..MaxButton(False)
+Gui.Form1..MinButton(False)
+Gui.Form1..MousePointer(1)
+Gui.Form1..Moveable(True)
+Gui.Form1..Sizeable(False)
+Gui.Form1..ShowInTaskBar(False)
+Gui.Form1..TitleBar(True)
+
+
+Gui.Form1.lblUser1.Create(label)
+Gui.Form1.lblUser1.Caption("User Field 1")
+Gui.Form1.lblUser1.Visible(True)
+Gui.Form1.lblUser1.Size(1500,300)
+Gui.Form1.lblUser1.Zorder(0)
+Gui.Form1.lblUser1.Position(195,195)
+Gui.Form1.lblUser1.Enabled(True)
+Gui.Form1.lblUser1.Alignment(0)
+Gui.Form1.lblUser1.FontName("Arial")
+Gui.Form1.lblUser1.FontSize(7)
+Gui.Form1.lblUser1.Backcolor(-2147483633)
+Gui.Form1.lblUser1.BackStyle(0)
+Gui.Form1.lblUser1.Tooltip("")
+Gui.Form1.lblUser1.ControlGroup(0)
+
+
+Gui.Form1.txtUser1.Create(textbox)
+Gui.Form1.txtUser1.Text("")
+Gui.Form1.txtUser1.Visible(True)
+Gui.Form1.txtUser1.Size(2520,300)
+Gui.Form1.txtUser1.Zorder(0)
+Gui.Form1.txtUser1.Position(195,525)
+Gui.Form1.txtUser1.Enabled(True)
+Gui.Form1.txtUser1.Alignment(0)
+Gui.Form1.txtUser1.FontName("Arial")
+Gui.Form1.txtUser1.FontSize(7)
+Gui.Form1.txtUser1.Backcolor(16777215)
+Gui.Form1.txtUser1.BorderStyle(1)
+Gui.Form1.txtUser1.MaxLength(30)
+Gui.Form1.txtUser1.TabStop(True)
+Gui.Form1.txtUser1.TabIndex(10)
+Gui.Form1.txtUser1.Tooltip("")
+Gui.Form1.txtUser1.ControlGroup(0)
+Gui.Form1.txtUser1.DefaultValue("")
+
+
+Gui.Form1.lblExtID.Create(label)
+Gui.Form1.lblExtID.Caption("External ID")
+Gui.Form1.lblExtID.Visible(True)
+Gui.Form1.lblExtID.Size(1500,300)
+Gui.Form1.lblExtID.Zorder(0)
+Gui.Form1.lblExtID.Position(195,1065)
+Gui.Form1.lblExtID.Enabled(True)
+Gui.Form1.lblExtID.Alignment(0)
+Gui.Form1.lblExtID.FontName("Arial")
+Gui.Form1.lblExtID.FontSize(7)
+Gui.Form1.lblExtID.Backcolor(-2147483633)
+Gui.Form1.lblExtID.BackStyle(0)
+Gui.Form1.lblExtID.Tooltip("")
+Gui.Form1.lblExtID.ControlGroup(0)
+
+
+Gui.Form1.txtExtID.Create(textbox)
+Gui.Form1.txtExtID.Text("")
+Gui.Form1.txtExtID.Visible(True)
+Gui.Form1.txtExtID.Size(2520,300)
+Gui.Form1.txtExtID.Zorder(0)
+Gui.Form1.txtExtID.Position(200,1365)
+Gui.Form1.txtExtID.Enabled(True)
+Gui.Form1.txtExtID.Alignment(0)
+Gui.Form1.txtExtID.FontName("Arial")
+Gui.Form1.txtExtID.FontSize(7)
+Gui.Form1.txtExtID.Backcolor(16777215)
+Gui.Form1.txtExtID.BorderStyle(1)
+Gui.Form1.txtExtID.MaxLength(30)
+Gui.Form1.txtExtID.TabStop(True)
+Gui.Form1.txtExtID.TabIndex(21)
+Gui.Form1.txtExtID.Tooltip("")
+Gui.Form1.txtExtID.ControlGroup(0)
+Gui.Form1.txtExtID.DefaultValue("")
+
+
+Gui.Form1.lblNotes.Create(label)
+Gui.Form1.lblNotes.Caption("Other Notes")
+Gui.Form1.lblNotes.Visible(True)
+Gui.Form1.lblNotes.Size(1500,300)
+Gui.Form1.lblNotes.Zorder(0)
+Gui.Form1.lblNotes.Position(200,1995)
+Gui.Form1.lblNotes.Enabled(True)
+Gui.Form1.lblNotes.Alignment(0)
+Gui.Form1.lblNotes.FontName("Arial")
+Gui.Form1.lblNotes.FontSize(7)
+Gui.Form1.lblNotes.Backcolor(-2147483633)
+Gui.Form1.lblNotes.BackStyle(0)
+Gui.Form1.lblNotes.Tooltip("")
+Gui.Form1.lblNotes.ControlGroup(0)
+
+
+Gui.Form1.txtNotes.Create(textbox)
+Gui.Form1.txtNotes.Text("")
+Gui.Form1.txtNotes.Visible(True)
+Gui.Form1.txtNotes.Size(2520,300)
+Gui.Form1.txtNotes.Zorder(0)
+Gui.Form1.txtNotes.Position(200,2310)
+Gui.Form1.txtNotes.Enabled(True)
+Gui.Form1.txtNotes.Alignment(0)
+Gui.Form1.txtNotes.FontName("Arial")
+Gui.Form1.txtNotes.FontSize(7)
+Gui.Form1.txtNotes.Backcolor(16777215)
+Gui.Form1.txtNotes.BorderStyle(1)
+Gui.Form1.txtNotes.MaxLength(30)
+Gui.Form1.txtNotes.TabStop(True)
+Gui.Form1.txtNotes.TabIndex(41)
+Gui.Form1.txtNotes.Tooltip("")
+Gui.Form1.txtNotes.ControlGroup(0)
+Gui.Form1.txtNotes.DefaultValue("")
+
+
+Gui.Form1.cmdSave.Create(button)
+Gui.Form1.cmdSave.Caption("Save")
+Gui.Form1.cmdSave.Visible(True)
+Gui.Form1.cmdSave.Size(1125,345)
+Gui.Form1.cmdSave.Zorder(0)
+Gui.Form1.cmdSave.Position(195,2880)
+Gui.Form1.cmdSave.Enabled(True)
+Gui.Form1.cmdSave.FontName("Arial")
+Gui.Form1.cmdSave.FontSize(7)
+Gui.Form1.cmdSave.TabStop(True)
+Gui.Form1.cmdSave.TabIndex(42)
+Gui.Form1.cmdSave.Tooltip("")
+Gui.Form1.cmdSave.ControlGroup(0)
+Gui.Form1.cmdSave.DefaultValue("")
+
+Gui.Form1.cmdSave.Event(click,cmdSave_Click)
+
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Program.Sub.Preflight.End
+
+
+Program.Sub.Main.Start
+F.Intrinsic.Control.SetErrorHandler("Main_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+
+'Created for Sicom Industries by SKC on 2/9/2016
+'This program contains a maintenance program that will allow the user to save the values for three labels in the AP Vendor Options screen.
+'The Labels are User Field 1, External ID, and Other Notes.  
+'Within in the maintenance program the user will be required to fill in the textboxes.  
+'There will only ever be one set of values stored in the table.  
+
+'On Hook 14501(Options hook)  The passed Id's for User field 1, External ID, and Other Notes will be changed to the 
+'Custom label values in the table, only if values are present in the table.  Otherwise the default values for the Passed id's will remain.
+
+v.Local.sUser1.Declare(String)
+v.Local.sExtID.Declare(String)
+v.Local.sNotes.Declare(String)
+v.Local.sSql.Declare(String)
+
+F.ODBC.Connection!conx.OpenConnection(v.Ambient.PDSN, v.Ambient.PUser, v.Ambient.PPass)
+
+F.Intrinsic.Control.SelectCase(v.Caller.Hook)
+	F.Intrinsic.Control.Case(14501)
+		v.Local.sSql.Set("Select * From GCG_3614_SIC_APOpt")
+		F.ODBC.Connection!conx.OpenLocalRecordsetRO("rstVend", v.Local.sSql)
+		F.Intrinsic.Control.If(v.ODBC.conx!rstVend.EOF, =, False)
+		'change User1 Label
+			v.Local.sUser1.Set(v.ODBC.conx!rstVend.FieldValTrim!User1)
+		'Change External ID Label
+			v.Local.sExtID.Set(v.ODBC.conx!rstVend.FieldValTrim!External_ID)
+		'Change Other Notes Label
+			v.Local.sNotes.Set(v.ODBC.conx!rstVend.FieldValTrim!Notes)
+			
+			'set the passed id's only if there is a value in the table otherwise default will remain
+			v.Passed.000002.Set(v.Local.sExtID.Trim)
+			v.Passed.000046.Set(v.Local.sNotes.Trim)
+			v.Passed.000049.Set(v.Local.sUser1.Trim)
+			
+		F.Intrinsic.Control.EndIf
+		F.ODBC.conx!rstVend.Close
+
+	F.Intrinsic.Control.CaseElse
+		'Maintenance program here.
+		v.Local.sSql.Set("Select * from GCG_3614_SIC_APOpt")
+		F.ODBC.Connection!conx.OpenLocalRecordsetRO("rstRead", v.Local.sSql)
+		F.Intrinsic.Control.If(v.ODBC.conx!rstRead.EOF, =, False)
+			Gui.Form1.txtUser1.Text(v.ODBC.conx!rstRead.FieldValTrim!User1)
+			Gui.Form1.txtExtID.Text(v.ODBC.conx!rstRead.FieldValTrim!External_ID)
+			Gui.Form1.txtNotes.Text(v.ODBC.conx!rstRead.FieldValTrim!Notes)
+		F.Intrinsic.Control.EndIf
+		F.ODBC.conx!rstRead.Close
+		Gui.Form1..Show
+		
+F.Intrinsic.Control.EndSelect
+
+
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Main_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_SIC_3614_VendorOptions.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	f.Intrinsic.Control.CallSub(form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Main.End
+
+Program.Sub.cmdSave_Click.Start
+F.Intrinsic.Control.SetErrorHandler("cmdSave_Click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+
+v.Local.sSql.Declare(String)
+v.Local.sUser.Declare(String)
+v.Local.sNotes.Declare(String)
+v.Local.sExtID.Declare(string)
+
+F.Intrinsic.Control.If(v.Screen.Form1!txtUser1.Text, !=, "")
+	v.Local.sUser.Set(v.Screen.Form1!txtUser1.Text)
+F.Intrinsic.Control.Else
+	F.Intrinsic.UI.Msgbox("Missing User Field 1!", "Missing Text Error")
+	Gui.Form1.txtUser1.SetFocus
+	F.Intrinsic.Control.ExitSub
+F.Intrinsic.Control.EndIf
+
+F.Intrinsic.Control.If(v.Screen.Form1!txtExtID.Text, !=, "")
+	V.Local.sExtID.Set(v.Screen.Form1!txtExtID.Text)
+f.Intrinsic.Control.Else
+	F.Intrinsic.UI.Msgbox("Missing External ID!", "Missing Text Error")
+	gui.Form1.txtExtID.SetFocus
+	F.Intrinsic.Control.ExitSub
+F.Intrinsic.Control.EndIf
+
+F.Intrinsic.Control.If(v.Screen.Form1!txtNotes.Text, !=, "")
+	V.Local.sNotes.Set(v.Screen.Form1!txtNotes.Text)
+f.Intrinsic.Control.Else
+	F.Intrinsic.UI.Msgbox("Missing Other Notes Text!", "Missing Text Error")
+	Gui.Form1.txtNotes.SetFocus
+	F.Intrinsic.Control.ExitSub
+f.Intrinsic.Control.EndIf
+
+
+v.Local.sSql.Set("Delete From GCG_3614_SIC_APOpt")
+F.ODBC.Connection!conx.Execute(v.Local.sSql)
+
+v.Local.sSql.Set("Select * From GCG_3614_SIC_APOpt")
+F.ODBC.Connection!conx.OpenLocalRecordsetRW("rstSet", v.Local.sSql)
+
+F.ODBC.conx!rstSet.AddNew
+F.ODBC.conx!rstSet.Set!User1(v.Local.sUser.Trim)
+F.ODBC.conx!rstSet.Set!External_ID(v.Local.sExtID.Trim)
+F.ODBC.conx!rstSet.Set!Notes(v.Local.sNotes)
+F.ODBC.conx!rstSet.Update
+F.ODBC.conx!rstSet.Close
+F.Intrinsic.Control.CallSub(form1_unload)
+
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmdSave_Click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_SIC_3614_VendorOptions.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.cmdSave_Click.End
+
+Program.Sub.Form1_Unload.Start
+F.Intrinsic.Control.SetErrorHandler("Form1_Unload_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+
+F.ODBC.Connection!conx.Close
+F.Intrinsic.Control.End
+
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Form1_Unload_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_SIC_3614_VendorOptions.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Form1_Unload.End
+
+Program.Sub.Comments.Start
+${$0$}$$}$SKT$}$2/9/2016 10:14:21 AM$}$False
+Program.Sub.Comments.End
